@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8688e1f8b2618d49bb53d31419296e7, type: 3}
+  m_Name: ShipBodyOptions
+  m_EditorClassIdentifier: 
+  shipPartDetails:
+  - name: Basic
+    prefab: {fileID: 1472542294352466, guid: 2a4573fd70efa094d84f72d5723ef9a6, type: 2}
+    achievementNameToUnlock: 
+  - name: Hexed
+    prefab: {fileID: 1347799718326292, guid: e4147ba9c63cc9d4b9c86c36977d8f73, type: 2}
+    achievementNameToUnlock: Lucky Shot
+  - name: Spiker
+    prefab: {fileID: 1479205242234512, guid: 33af94e5e5e1a20489dc3bd190abd478, type: 2}
+    achievementNameToUnlock: Rookie Pilot
+  - name: Ring
+    prefab: {fileID: 1938124355550624, guid: ab351567f4665af4f944366969c79acb, type: 2}
+    achievementNameToUnlock: Skillful Dodger

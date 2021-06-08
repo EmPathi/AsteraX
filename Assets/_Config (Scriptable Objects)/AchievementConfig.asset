@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e5375602548934293f925247001d2e, type: 3}
+  m_Name: AchievementConfig
+  m_EditorClassIdentifier: 
+  achievments:
+  - title: First Dust
+    description: Shot Your First Asteroid
+    type: 2
+    valueToReach: 1
+  - title: Lucky Shot
+    description: Bullet Wrapped Screen and Hit an Asteroid
+    type: 1
+    valueToReach: 1
+  - title: Trigger Happy
+    description: 1,000 Shots Fired
+    type: 0
+    valueToReach: 1000
+  - title: Rookie Pilot
+    description: Score Above 10,000
+    type: 3
+    valueToReach: 10001
+  - title: Eagle Eye
+    description: 100 Lucky Shots
+    type: 1
+    valueToReach: 100
+  - title: Skillful Dodger
+    description: Reach Level 5
+    type: 4
+    valueToReach: 5

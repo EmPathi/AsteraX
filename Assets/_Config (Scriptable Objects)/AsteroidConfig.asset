@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb1807573dc1ee4d93e18d4b6efe464, type: 3}
+  m_Name: AsteroidConfig
+  m_EditorClassIdentifier: 
+  asteroidPrefabsStandalone:
+  - {fileID: 1029653053436338, guid: 1293b0763d7d344e0b908c097078ac09, type: 2}
+  - {fileID: 1669921439223048, guid: 5513cde93bb3343768ced35921a9c3c2, type: 2}
+  - {fileID: 1317570492134680, guid: a6d3ccfc58a1f41368479aabb6050561, type: 2}
+  asteroidPrefabsMobile:
+  - {fileID: 1029653053436338, guid: cf9403890bc47394f862027021aa232c, type: 2}
+  - {fileID: 1669921439223048, guid: 065c10adb88ebfe49a209607f36c035b, type: 2}
+  - {fileID: 1317570492134680, guid: 58f061b9781b76545b9932f9e2c1f4ea, type: 2}
+  layersThatDestroyAsteroids:
+    serializedVersion: 2
+    m_Bits: 768
+  layersThatGivePointsWhenDestroying:
+    serializedVersion: 2
+    m_Bits: 512
+  initialScale: 0.6
+  initialSpeed: 25
+  initialTorque: 50
+  pointsPerSize: 0000000090010000c8000000640000003200000019000000
+  listExplosionEffectPrefabs:
+  - {fileID: 1799431477683404, guid: 576e0e29dc245ac40aaac786f63906f2, type: 2}
+  - {fileID: 1340232626020898, guid: 8a41e47589045db448d76763b0f0284d, type: 2}
