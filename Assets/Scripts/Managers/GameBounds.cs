@@ -21,4 +21,20 @@ public class GameBounds: MonoBehaviour {
 		float y = _screenBounds.bounds.min.y + (_screenBounds.bounds.max.y-_screenBounds.bounds.min.y)*Random.value;
 		return new Vector3(x, y, 0);
 	}
+
+	public float Left() {
+		return _screenBounds.bounds.min.x;
+	}
+
+	public float Right() {
+		return _screenBounds.bounds.max.x;
+	}
+
+	public float Top() {
+		return _screenBounds.bounds.max.y;
+	}
+
+	public float Bottom() {
+		return _screenBounds.bounds.min.y;
+	}
 }

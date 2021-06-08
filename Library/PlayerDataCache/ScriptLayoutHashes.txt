@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Unity/AsteraX UCP C01 V07 - Movement Challenge/Builds/Android/AsteraX.apk
+E:/Unity/AsteraX/Builds/Android/AsteraX.apk
 SceneListBegin?
 Assets/_Scenes/_Scene_0.unity
 SceneListEnd?
@@ -146,6 +146,7 @@ a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 97df8050394c4dc2a4620090da466d71 Assembly-CSharp.dll:.BulletSO
 dfb8dece3b6f33a8e074e504e2383adc Assembly-CSharp.dll:.ShipPart
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyIfStandalone
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -188,4 +189,4 @@ fb6e6c997f707420c60968549dab4ada Assembly-CSharp.dll:.TiltWithVelocity
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JumpsText
 7f4ef78b03dbf51fe6788eaf50985b98 Assembly-CSharp.dll:.ShipPartOptionsSO
 7ea9a1571aedd45c170dac287aade1c8 Assembly-CSharp.dll:.BulletPool
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyIfStandalone
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScaleToFitScreen

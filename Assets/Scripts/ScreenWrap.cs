@@ -23,13 +23,13 @@ public class ScreenWrap: MonoBehaviour {
 	}
 
 	private void CheckScreenWrap() {
-		if(Mathf.Abs(this.transform.position.x) > 16) {
+		if(Mathf.Abs(this.transform.position.x) > GameBounds.Instance.Right()) {
 			StopChildParticleSystems();
 			this.transform.position = new Vector3(-this.transform.position.x, this.transform.position.y, this.transform.position.z);
 			PlayChildParticleSystems();
 			FireWrapOccurred();
 		}
-		if(Mathf.Abs(this.transform.position.y) > 9) {
+		if(Mathf.Abs(this.transform.position.y) > GameBounds.Instance.Top()) {
 			StopChildParticleSystems();
 			this.transform.position = new Vector3(this.transform.position.x, -this.transform.position.y, this.transform.position.z);
 			PlayChildParticleSystems();

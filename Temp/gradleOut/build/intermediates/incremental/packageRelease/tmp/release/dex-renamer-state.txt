@@ -1,0 +1,4 @@
+#Mon Jun 07 22:30:30 CDT 2021
+base.0=E\:\\Unity\\AsteraX\\Temp\\gradleOut\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex
